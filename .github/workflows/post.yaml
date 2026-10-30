@@ -30,6 +30,7 @@ jobs:
             echo "title: '$ISSUE_TITLE'"
             echo "description: 'Auto-generated from issue #${ISSUE_NUMBER}'"
             echo "pubDate: '$DATE'"
+            echo "heroImage: '../../assets/blog-placeholder-1.jpg'"
             echo "---"
             echo ""
             echo "$ISSUE_BODY"
